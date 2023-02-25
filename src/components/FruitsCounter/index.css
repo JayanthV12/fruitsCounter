@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffd569;
+  height: auto;
+  padding: 20px;
+  background-size: cover;
+}
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .fruit-container {
+    flex-direction: row;
+  }
+}
+.fruit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.image {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.button {
+  border-radius: 10px;
+  padding: 10px;
+  border-width: 0px;
+  background-color: blue;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+.count {
+  color: #ffd569;
+}
